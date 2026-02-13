@@ -1111,10 +1111,12 @@ body {
   .message-container {
     right: 50%;
     top: auto;
-    bottom: 20px;
+    bottom: 60px;
     transform: translateX(50%) translateY(400px);
     max-width: 90%;
     padding: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
   }
   
   .message-container.show {
@@ -1158,6 +1160,8 @@ body {
   
   .message-container {
     padding: 15px;
+    max-height: 65vh;
+    overflow-y: hidden;
   }
   
   .message-container h2 {
@@ -1165,6 +1169,6 @@ body {
   }
   
   .message-container p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
